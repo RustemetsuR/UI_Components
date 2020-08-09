@@ -1,0 +1,41 @@
+.Alert{
+    width: 400px;
+    padding: 15px;
+    margin: 25px 0;
+    position: relative;
+    border-radius: 3px;
+}
+
+.Alert .close-alert-btn{
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.Alert.danger,
+.Alert.danger .close-alert-btn
+{
+    background: #f8d7da;
+    color: #721c24;
+    border-color: #721c24;
+}
+
+
+.Alert.success,
+.Alert.success .close-alert-btn{
+    background: #d4edda;
+    color: #155724;
+    border-color: #155724;
+}
+
+
+
+.Alert.primary,
+.Alert.primary .close-alert-btn{
+    background: #cce5ff;
+    color: #004085;
+    border-color: #004085;
+}
+
